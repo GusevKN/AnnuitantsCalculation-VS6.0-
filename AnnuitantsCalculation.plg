@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AnnuitantsCalculation - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/AnnuitantsCalculation.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Администратор\Рабочий стол\PT\CN-AC.001_VS6.0_GUI Мои программы\CN-AC.001.014.GUI Ануитентный калькулятор\2021040315 AnnuitantsCalculation\AnnuitantsCalculation\AnnuitantsCalculation.rc"" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP431.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/AnnuitantsCalculation.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\CN-AC.001_VS6.0_GUI Мои программы\CN-AC.001.014.GUI Ануитентный калькулятор\2021040315 AnnuitantsCalculation\AnnuitantsCalculation\AnnuitantsCalculation.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\CN-AC.001_VS6.0_GUI Мои программы\CN-AC.001.014.GUI Ануитентный калькулятор\2021040315 AnnuitantsCalculation\AnnuitantsCalculation\AnnuitantsCalculationDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP431.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP432.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/AnnuitantsCalculation.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\CN-AC.001_VS6.0_GUI Мои программы\CN-AC.001.014.GUI Ануитентный калькулятор\2021040315 AnnuitantsCalculation\AnnuitantsCalculation\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP432.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP433.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/AnnuitantsCalculation.pdb" /machine:I386 /out:"Release/AnnuitantsCalculation.exe" 
+".\Release\AnnuitantsCalculation.obj"
+".\Release\AnnuitantsCalculationDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\AnnuitantsCalculation.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP433.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AnnuitantsCalculation.cpp
+AnnuitantsCalculationDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+AnnuitantsCalculation.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AnnuitantsCalculation - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/AnnuitantsCalculation.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Администратор\Рабочий стол\PT\CN-AC.001_VS6.0_GUI Мои программы\CN-AC.001.014.GUI Ануитентный калькулятор\2021040315 AnnuitantsCalculation\AnnuitantsCalculation\AnnuitantsCalculation.rc"" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP435.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/AnnuitantsCalculation.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\CN-AC.001_VS6.0_GUI Мои программы\CN-AC.001.014.GUI Ануитентный калькулятор\2021040315 AnnuitantsCalculation\AnnuitantsCalculation\AnnuitantsCalculation.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\CN-AC.001_VS6.0_GUI Мои программы\CN-AC.001.014.GUI Ануитентный калькулятор\2021040315 AnnuitantsCalculation\AnnuitantsCalculation\AnnuitantsCalculationDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP435.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP436.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/AnnuitantsCalculation.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\CN-AC.001_VS6.0_GUI Мои программы\CN-AC.001.014.GUI Ануитентный калькулятор\2021040315 AnnuitantsCalculation\AnnuitantsCalculation\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP436.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP437.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/AnnuitantsCalculation.pdb" /debug /machine:I386 /out:"Debug/AnnuitantsCalculation.exe" /pdbtype:sept 
+".\Debug\AnnuitantsCalculation.obj"
+".\Debug\AnnuitantsCalculationDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\AnnuitantsCalculation.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP437.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AnnuitantsCalculation.cpp
+AnnuitantsCalculationDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+AnnuitantsCalculation.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
